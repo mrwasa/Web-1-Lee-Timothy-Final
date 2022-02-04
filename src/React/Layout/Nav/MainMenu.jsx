@@ -3,16 +3,12 @@ import styled, {css} from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 /* Scripts ---------------------------*/
-import { useMediaQuery } from 'React/common/useMediaQuery.js';
+import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
 
 const MainMenu = () => {
 
-    const { media } = useMediaQuery();
-
-    console.log('media', media);
-
     return (
-        <MainMenuStyled className='MainMenu' media={ media }>
+        <MainMenuStyled className='MainMenu'>
             <NavLink to={ '/' } exact>Welcome</NavLink>
             <NavLink to={ '/services' }>Services</NavLink>
             <NavLink to={ '/contact' }>Contact</NavLink>
@@ -47,23 +43,15 @@ const MainMenuStyled = styled.div`
         }
 
     }
-
-    ${
-        ({media}) => {
-            if (media.mdUp) {
-                return css`
-                    display: flex;
-                    justify-content: center;
-                    a {
-                        display: inline-block;
-                        width: 150px;
-                        margin: 0px 10px;
-                        font-size: 16px;
-                        border-radius: 5px;
-                    }
-                `;
-            }
+    @media ${defaultMediaQueries.mdUp} {
+        display: flex;
+        justify-content: center;
+        a {
+            display: inline-block;
+            width: 150px;
+            margin: 0px 10px;
+            font-size: 16px;
+            border-radius: 5px;
         }
     }
-
 `;
