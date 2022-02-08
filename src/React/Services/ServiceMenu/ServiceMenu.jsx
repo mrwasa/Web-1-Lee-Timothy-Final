@@ -3,12 +3,15 @@ import styled from 'styled-components';
 
 import ServiceMenuItem from './ServiceMenuItem.jsx';
 
-const ServiceMenu = () => {
+const ServiceMenu = ({categories}) => {
 
     return (
         <ServiceMenuStyled className='ServiceMenu'>
-            ServiceMenu 
-            <ServiceMenuItem />
+            {
+                categories.map((category, idx) => {
+                    return <ServiceMenuItem key={ idx } category={ category }/>
+                })
+            }
         </ServiceMenuStyled>
     );
 }
@@ -16,5 +19,7 @@ const ServiceMenu = () => {
 export default ServiceMenu;
 
 const ServiceMenuStyled = styled.div`
-    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 `;
