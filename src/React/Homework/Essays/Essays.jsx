@@ -84,6 +84,22 @@ const Essays = () => {
             </Essay>
             <Essay q='S7. What is the difference between jpg, gif, png and SVG images?' >
                 <ul>
+                    <li><b>JPG:</b> Joint Photographic Experts Group is a raster graphic and is best used for photos or images with a lot of blends and gradients. It supports millions of colors.
+                        They are good for taking RAW files and compressing them down to high quality photos that are smaller in data size. 
+                        Saving and re-saving a JPG will degrade the image. They are also not good for flat colored images. </li>
+                    <li><b>GIF:</b> Graphics Interchange Format is a raster graphic and is best for supporting animation but also good for line drawing, screenshots and fast loading images like logos and banners. 
+                        They are better for flat colored images and support transparency even though it’s not recommended for transparent images. 
+                        GIFs also only accommodate 256 colors. GIFs are lossless so it has all of it’s information intact.</li>   
+                    <li><b>PNG:</b> Portable Networks Graphic is a raster graphic and is best for detailed web graphics like social media graphics or illustrations. It supports millions of colors and indexed colors.
+                        It also supports transparency.They were made to replace the GIF. It’s lossless so it is larger than a JPG and it will slow your website’s loading speed, but it’s worth it because the quality of the image is better. 
+                        The quality of the image will not degrade even if you save and re-save multiple times. PNGs also support transparent backgrounds.</li>   
+                    <li><b>SVG:</b> Scalable Vector Graphics are best for logos, icons, and simple graphics. 
+                        They are vector-based which means you can resize them to any size and it won’t lose its quality because they’re made, shaped, colored, mathematically; not pixels. 
+                        SVG images are actually code so in order to upload them onto a site you need to copy and paste the code of the image instead of just uploading the image like with other image files.</li>  
+                </ul>
+            </Essay>
+            <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.' >
+                <ul>
                     <li> </li>
                 </ul>
             </Essay>
