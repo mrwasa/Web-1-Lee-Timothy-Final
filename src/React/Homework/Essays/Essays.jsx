@@ -100,6 +100,31 @@ const Essays = () => {
             </Essay>
             <Essay q='S8. Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.' >
                 <ul>
+                    <li><b>Project Manager:</b> A project manager is responsible for an entire project. They define the entire scope and goal of a project and organize a team that will complete the project on time. 
+                        They also lead meetings and create schedules. But since the project manager is in charge of the whole project, they also have to do things outside of the team’s scope. 
+                        Such as managing budgets, staying in communication with stakeholders, and managing risks.</li>
+                    <li><b>Business Analyst:</b> Business analysts find ways for businesses to increase efficiency and strengthen their business processes. 
+                        They analyze large datasets and identify the functional and technical needs and expectations of a business. They also need to understand the business’s strategies and goals and create a financial model that supports the business’s decisions. 
+                        They are always in communication with others in the organization and makes sure that changes are made that will improve the business.</li>
+                    <li><b>Scrum Master:</b> A role in a scrum team who makes sure that their team is successfully following Scrum principles in a project. 
+                        A scrum master’s duties include fostering good communication and teamwork within the team, which also includes planning and facilitating meetings and stand-ups. 
+                        Scrum masters also deal with issues in the team that prevent the team’s progress. Scrum masters only deal with scrum-related projects and team.</li>
+                    <li><b>UX Designer:</b> A user experience designer focuses on the interaction between the user and the product. They focus on the development of the product which includes its design, usability, function and even how it is advertised to the user. 
+                        They want to make sure that the product is usable, enjoyable and accessible. They work with users, development teams, and business stakeholders to make sure that the product is being improved or iterated to meet both user needs and business goals. 
+                        UX designers conduct user research, determine the product infrastructure as well as design user flows and wireframes, create prototypes, and conduct user testing. 
+                        UX designers make sure that the user wants to use the product your business is selling.</li>
+                    <li><b>Web Developer/Engineer:</b> A web developer/engineer is a software developer who develops applications and software tools specifically for the internet such as websites, e-commerce, and mobile development. 
+                        They design application functionality, develop network communication systems, and build user-friendly UI. They can work on the front-end, back-end of be full stack developers.</li>
+                    <li><b>Quality Assurance Tester:</b> A quality assurance tester conducts software testing and assesses its quality. They are responsible for finding glitches and bugs in software. 
+                        They review and analyze system specs, develop and execute strategies and test plans, analyze test results, evaluate the product code according to specifications, and help with troubleshooting issues. 
+                        They ensure the quality of the product throughout its lifecycle.</li>
+                    <li><b>DevOps:</b> Short for Development and Operations, DevOps bridges the gap and gives an agile relationship between software development, who develops the software, and IT operations, who deploy the software. 
+                        It is used to help create and release regular updates to products more quickly and efficiently. DevOps engineers work with software developers, system operators and admins, IT operations staff and others to oversee and facilitate continuous code development and release. 
+                        They manage IT projects, design and improve IT infrastructure, and check performance and security. They oversee the whole lifecycle of software development.</li>
+                </ul>
+            </Essay>
+            <Essay q='S9. What is considered the right size for an image or video asset?' >
+                <ul>
                     <li> </li>
                 </ul>
             </Essay>
