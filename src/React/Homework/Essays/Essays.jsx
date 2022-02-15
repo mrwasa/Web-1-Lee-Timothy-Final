@@ -125,6 +125,20 @@ const Essays = () => {
             </Essay>
             <Essay q='S9. What is considered the right size for an image or video asset?' >
                 <ul>
+                    <p>Trick question, whatever size will give us the fastest download without compromising quality.</p>
+                    <p>The correct image size depends on your layout. You can find out what image size you need by using things like a “page ruler” browser extension, inspecting the element from the browser, image size info extension, and others. </p>
+                    <p>The optimal file size of an image should be no more than 200kb and inside content images should be 800-1500 pixels wide. </p>
+                    <p>Background image and full width images should be between 1,500 and 2,500 pixels wide. The best is 1920 pixels wide and 1080 pixels high. The best ratio is 16:9 and should be at least 72 pixels per inch (ppi). </p>
+                    <p>Slideshow gallery images should be 1500 pixels high because for a gallery they should all be the same height. </p>
+                    <p>Vertical images shouldn’t be more than 1200 pixels high. </p>
+                    <p>Header images should be 1,024 pixels wide.</p>
+                    <p>Logo images are no larger than 320-500 pixels wide by 70-100 pixels high.</p>
+                    <p>For retina options most images sizes stated above should be doubled.</p>
+                    <p>For videos, make sure to check the bitrate. The bitrate should be about 80% of the available throughput on the network. So, for 4G you should stay below 7.2 MBPS. Videos should be compressed down to at least 720p. Also try not to have the file size bigger than 30mb if possible.</p>
+                </ul>
+            </Essay>
+            <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?' >
+                <ul>
                     <li> </li>
                 </ul>
             </Essay>
