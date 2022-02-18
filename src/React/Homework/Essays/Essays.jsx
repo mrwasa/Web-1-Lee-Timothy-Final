@@ -139,6 +139,12 @@ const Essays = () => {
             </Essay>
             <Essay q='S10. What does it mean for a company to be Agile? What are the pros and cons of being agile?' >
                 <ul>
+                    <p>Agile is a methodology and an iterative approach where cross-functional agile teams collaborate and work in small frequent increments where they can gather feedback and make changes if needed instead of waiting until the end. Agile is also self-organizing and the teams decide on plans, tasks, and how the work will get done. Teams are focused on collaboration with both teammates and customers and finding solutions for customer needs. During each iteration, the teams are able to change and modify their plans and work according to their results, thus being able to adapt as they go.</p>
+                    <p>Since agile is self-organizing and teams work in short increments, there is no strict schedule and time management could be a problem if not managed properly. The constant changes during each iteration could also cause problems within the project or for other parts of the company. Since agile is a little looser, there is less documentation and can be unpredictable so a project could get off track. In order for agile to work smoothly, teams much be  well managed and consistent. </p>
+                </ul>
+            </Essay>
+            <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?' >
+                <ul>
                     <li> </li>
                 </ul>
             </Essay>
