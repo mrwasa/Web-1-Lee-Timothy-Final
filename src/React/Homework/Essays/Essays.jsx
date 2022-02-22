@@ -36,17 +36,19 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='S4. What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?' >
-                <p>Single Page Apps (SPAs) are apps that work in browsers that are loaded into one page and all interaction is carried out in that one page. 
+                <ul>
+                    <p>Single Page Apps (SPAs) are apps that work in browsers that are loaded into one page and all interaction is carried out in that one page. 
                     This differs from the traditional multi-page website because multi-page websites have a large number of pages that get loaded every time the user interacts with the website. 
                     With SPAs, everything is loaded and done on a single page so that it increases performance, speed, and user experience. 
                     Instead of a full page being reloaded, SPAs allow just the necessary parts of the page to reload in the form of JSON files. 
                     MPAs had to refresh the entire page completely, but thanks to AJAX, refreshing only particular parts have become possible.</p>
-                <p>MPAs are still more complex, with more levels, and are more difficult to develop than SPAs. 
+                    <p>MPAs are still more complex, with more levels, and are more difficult to develop than SPAs. 
                     However, they are better for SEO optimization and creating new and unique pages in a site. 
                     It also requires a smaller technology stack, and since it has been around longer, has more CMS solutions. SPAs may be easier for development, but it requires JavaScript to work and the download time might be slower because of its heavy framework that needs to be loaded. 
                     SPAs also seem less secure than MPAs.</p>
-                <p>If you need to show a lot of different things or provide many different services and SEO is important, then you should probably use MPAs. 
+                    <p>If you need to show a lot of different things or provide many different services and SEO is important, then you should probably use MPAs. 
                     If performance and management in limited web space is more of a preference, then SPAs would be better.</p>
+                </ul>
             </Essay>
             <Essay q='S5. What is the difference between Web Designer, Front End Developer and Back End Developer?' >
                 <ul>
@@ -144,6 +146,15 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q='S11. What are testing environments? What is the difference between Local, Dev, QA and Production?' >
+                <ul>
+                    <p>A testing environment is space where developers clone their application and set up their location and state for the purpose of testing it to find bugs and glitches. Setting up a test environment includes the hardware and the operating system the application will run on as well as the software itself. </p>
+                    <p><b>Local:</b> An environment used usually by only one developer. It is small scale where you can test and debug as you are developing, without interfering with other developers. You can test the functionality of your code and make sure everything works properly before pushing it into a shared environment.</p>
+                    <p><b>Dev:</b> A shared environment with other developers and other teams working on the same product. It is very unstable because changes are constantly being made by different teams and have many different components and services from within the application and outside. This environment is used by teams to make changes without breaking anything in the live environment. </p>
+                    <p><b>QA:</b> A controlled and integrated environment where QA teams can control what changes are made in order to test them individually and see if they are working properly. In this environment, the application is near identical to the actual product so that when isolated changes are implemented and tested, we can see if it will work or break the actual product. </p>
+                    <p><b>Production:</b> The environment where the latest version of the product and its updates are pushed live to the users. Ideally, all testing has been completed and all bugs and glitches have been found before reaching this environment. This environment contains the final version of the product. Though the final product is live, it doesn’t mean that testing cannot continue. There are many tests that can be conducted in this environment.</p>
+                </ul>
+            </Essay>
+            <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?' >
                 <ul>
                     <li> </li>
                 </ul>
