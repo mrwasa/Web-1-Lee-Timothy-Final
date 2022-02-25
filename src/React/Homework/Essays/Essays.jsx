@@ -156,8 +156,12 @@ const Essays = () => {
             </Essay>
             <Essay q='S12. Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?' >
                 <ul>
-                    <li> </li>
+                    <p>An image is considered part of the content (HTML) if it is providing significant information, acting as link, or has some kind of meaning related to the content of the page. HTML images can have texts and titles attached to them for more detail and clarification. Because of this they are also better for SEOs. They should be used if they have a function such as thumbnails, galleries, cards, etc. If your image is an important part of your content, then it should be in HTML.</p>
+                    <p>Images in CSS are used for background decoration. These images are solely there to enhance visuals and do not have any relation to the content. They are invisible to screen readers because they don’t have alt or titles. Embedded images are easier to position and control than HTML images and load faster. If your image is just there to make the page look nice, it should be in CSS.</p>
                 </ul>
+            </Essay>
+            <Essay q="S13. What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)">
+                <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>
     )
