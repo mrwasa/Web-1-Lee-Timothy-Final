@@ -161,6 +161,14 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q="S13. What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)">
+                <ul>
+                    <p><b>ID:</b> Essentially a label. The ID attribute is used to give a unique ID for an HTML element. No two elements can have the same ID. It is used for a single element that appears on the page only once. The ID is used by both CSS and JavaScript to recognize a specific HTML element to manipulate it. Use # and the element name to make the ID.</p>
+                    <p><b>Classes:</b> Also a label. The class attribute is used to give a class for an HTML element. Multiple elements can share the same class. Any element that has the same class name will be styled and manipulated the same using CSS and JavaScript. Use . and the class name to make the class. </p>
+                    <p><b>Tags:</b> Used at the start and end of elements, tags determine how a web browser will format and display the HTML content. They are used to create HTML documents that browsers can read and distinguish from other content. Each tag has different properties. Tags are used with the tag name between <>, then content, followed by the tag name between </> to close. An HTML element can contain multiple tags.</p>
+                    <p><b>Specificity</b> is used to determine which rule will be applied to an element. In the simplest situations usually when multiple rules are applied to the same element, the one that comes last will be used. But in more complex situations, the specificity value determines what is used for the element. The rule with the highest value will be applied to the element. </p>
+                </ul>            
+            </Essay>
+            <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
                 <p>Answer will go here for Monday.</p>
             </Essay>
         </EssaysStyled>
