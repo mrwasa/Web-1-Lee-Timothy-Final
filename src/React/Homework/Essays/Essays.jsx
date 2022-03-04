@@ -169,7 +169,16 @@ const Essays = () => {
                 </ul>            
             </Essay>
             <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
-                <p>Answer will go here for Monday.</p>
+                <ul>
+                    <p><b>CSS preprocessor</b> is a program that helps you create CSS files that can be used in your HTML document, but also has additional things you can use. It makes using CSS cleaner and more organized as well as being able to do things like reuse pieces, access libraries, and help with cross browser compatibility. You can also use variables, loops, and if/else statements. Some examples of CSS preprocessors are <b>SASS, LESS, Stylus, and PostCSS</b>.</p>
+                    <p><b>Styled-components</b> is a framework that lets you use CSS in JavaScript in React. Using tagged template literals in JavaScript, you can simply write CSS directly in your JavaScript code to style your React components. No separate CSS file is needed, which means no CSS preprocessor is needed either. You just need to install styled-components or any other CSS in JS framework from your terminal. </p>
+                    <p><b>Separation of Concern</b> is a principle used to organize things according to what they are or related to. In coding this would mean separating all the JavaScript code from the HTML code and CSS code into separate files. It is meant to keep the code organized. Styled components, however, let you used CSS in JavaScript. So, CSS and JavaScript would be mixed together in one file and violating the separation of concern. Instead of following the separation of concern, React lets you group code together based on their relation to each other into components. Each component will have the JavaScript, HTML, and CSS that its related to all together so that it can be read at once instead of jumping from one file to another.</p>
+                </ul>
+            </Essay>
+            <Essay q="S15. Final Project Essay goes here">
+                <ul>
+                    <p></p>
+                </ul>
             </Essay>
         </EssaysStyled>
     )
