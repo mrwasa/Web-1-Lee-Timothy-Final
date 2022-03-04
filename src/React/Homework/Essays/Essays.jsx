@@ -175,7 +175,7 @@ const Essays = () => {
                     <p><b>Separation of Concern</b> is a principle used to organize things according to what they are or related to. In coding this would mean separating all the JavaScript code from the HTML code and CSS code into separate files. It is meant to keep the code organized. Styled components, however, let you used CSS in JavaScript. So, CSS and JavaScript would be mixed together in one file and violating the separation of concern. Instead of following the separation of concern, React lets you group code together based on their relation to each other into components. Each component will have the JavaScript, HTML, and CSS that its related to all together so that it can be read at once instead of jumping from one file to another.</p>
                 </ul>
             </Essay>
-            <Essay q="S15. Final Project Essay goes here">
+            <Essay q="S15. Final Project: Pick a Subject Matter">
                 <ul>
                     <p></p>
                 </ul>
