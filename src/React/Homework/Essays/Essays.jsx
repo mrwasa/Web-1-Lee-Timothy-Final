@@ -177,8 +177,12 @@ const Essays = () => {
             </Essay>
             <Essay q="S15. Final Project: Pick a Subject Matter">
                 <ul>
-                    <p></p>
+                    <p>My subject matter wil be a portfolio/resume promoting my work as a UX designer. My clients will be recruiters and companies looking for UX designers to employ. The purpose of this is to promote my portfolio and show my resume in order to get a new job as a UX designer.</p>
+                    <p>The reason why I chose this subject matter is related to the reason why I chose to take this class. I am currently in the process of changing careers completely and have been working on becoming a UX designer. I was told that learning coding will not only be beneficial as a UX designer since I will be working with many web developers, I also need to create a portfolio/website with my work to show for when I am looking for a job. So I decided that I would like to take this class to learn about coding and also be able to create my own website and portfolio. I was going to start working on my portfolio after completing this class, but the final project accelerated my plan and I will start working on it now for its subject matter.</p>
                 </ul>
+            </Essay>
+            <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
+                <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>
     )
