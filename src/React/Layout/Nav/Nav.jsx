@@ -30,7 +30,10 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: rgb(1, 68, 68);
+    background-color: white;
     padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border: solid 1px black;
     color: white;
 `;
