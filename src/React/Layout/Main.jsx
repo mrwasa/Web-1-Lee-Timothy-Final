@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Welcome from '../Welcome/Welcome.jsx'
 import Services from '../Services/Services.jsx'
 import Contact from '../Contact/Contact.jsx'
-import Login from '../Login/Login.jsx'
+import UX from '../UX/UX.jsx'
 import Homework from '../Homework/Homework.jsx';
 
 const Main = () => {
@@ -23,8 +23,8 @@ const Main = () => {
                     <Route path='/contact'>
                         <Contact />
                     </Route>
-                    <Route path='/login'>
-                        <Login />
+                    <Route path='/ux'>
+                        <UX />
                     </Route>
                     <Route path='/homework'>
                         <Homework />
