@@ -182,7 +182,16 @@ const Essays = () => {
                 </ul>
             </Essay>
             <Essay q="S16. What is the difference between Web Hosts, Domains, and FTP?">
-                <p>Answer will go here for Thursday.</p>
+                <ul>
+                    <p><b>Domain:</b>Also known as a URL is the unique address for your website. It directs people to your website's location so that they can access it. </p>
+                    <p><b>Web Host:</b>A space on a server that lets you store your website files so that users can access and view your website. It helps you create, store, and manage all your website content and gives it a space for people to go to.</p>
+                    <p><b>FTP:</b>A File Transfer Protocol is used for file transfers from one system to another. It is used to download or upload your website files to your web hosting account and then to a client computer. The remote host uploads a file to a server and the local host downloads the file from the server.</p>
+                </ul>
+            </Essay>
+            <Essay q="S17. What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?">
+                <ul>
+                    <p><b>Answer </b>goes here. </p>
+                </ul>
             </Essay>
         </EssaysStyled>
     )
