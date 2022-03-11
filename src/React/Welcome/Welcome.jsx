@@ -10,9 +10,9 @@ const Welcome = () => {
     return (
         <WelcomeStyled className='Welcome'>
             <h1>Welcome</h1> 
-            <Slideshow />
             <Tabbed />
             <Staff />
+            <Slideshow />
         </WelcomeStyled>
     );
 }

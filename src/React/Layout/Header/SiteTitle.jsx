@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 const SiteTitle = () => {
 
+
+
     return (
         <SiteTitleStyled className='SiteTitle'>
             <h2>Timothy Lee</h2>
-            <h3></h3>
         </SiteTitleStyled>
     );
 }
@@ -20,9 +21,6 @@ const SiteTitleStyled = styled.div`
     h2 {
         margin: 0px;
         font-size: 30px;
-    }
-    h3{
-        margin: 0px;
-        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
     }
 `;

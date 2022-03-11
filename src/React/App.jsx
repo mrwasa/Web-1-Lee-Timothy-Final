@@ -7,7 +7,6 @@ import { MediaQueryProvider } from 'React/common/useMediaQuery.js';
 
 /* Components ---------------------------*/
 import Header from './Layout/Header/Header.jsx';
-import Nav from './Layout/Nav/Nav.jsx';
 import Main from './Layout/Main.jsx';
 import Footer from './Layout/Footer/Footer.jsx';
 
@@ -18,7 +17,6 @@ const App = () => {
             <BrowserRouter>
                 <AppStyled className='App'>
                     <Header />
-                    <Nav />
                     <Main />
                     <Footer />
                 </AppStyled>

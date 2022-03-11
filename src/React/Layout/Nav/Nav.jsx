@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 /* Scripts ---------------------------*/
-import { useMediaQueries, useMediaQuery } from 'React/common/useMediaQuery.js';
+import { defaultMediaQueries, useMediaQuery } from 'React/common/useMediaQuery.js';
 
 /* Components ---------------------------*/
 import Hamburger from './Hamburger.jsx';
@@ -33,7 +33,11 @@ const NavStyled = styled.nav`
     background-color: white;
     padding: 20px;
     display: flex;
-    justify-content: flex-end;
-    border: solid 1px black;
+    justify-content: center;
     color: white;
+
+    @media ${defaultMediaQueries.mdUp} {
+        justify-content: flex-end;
+
+    }
 `;
