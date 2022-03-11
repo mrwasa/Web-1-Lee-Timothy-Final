@@ -19,25 +19,25 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: teal;
-    padding: 20px 0px;
+    background-color: white;
+    padding: 20px 20px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
     .row {
         display: flex;
-        width: 420px;
+        width: 250px;
         align-items: center;
 
         .Logo {
             flex: 1;
-            padding-right: 20px;
+            padding-right: 10px;
             display: flex;
             align-items: center;
         }
 
         .SiteTitle {
-            flex: 3;
+            flex: 4;
         }
     }
 `;

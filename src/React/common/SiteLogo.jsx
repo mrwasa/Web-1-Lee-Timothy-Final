@@ -19,12 +19,12 @@ const SiteLogo = () => {
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-    color: #13bbbb;
+    color: #535252;
     width: 100%;
     height: 100%;
 
     svg.hot-tub-icon {
-        width: 100px;
+        width: 50px;
         height: auto;
     }
 `;
