@@ -14,8 +14,8 @@ const MainMenu = ({showMenuUpdate}) => {
     return (
         <MainMenuStyled className='MainMenu'>
             <NavLink onClick={ clickHandler } to={ '/' } exact>Home</NavLink>
+            <NavLink onClick={ clickHandler } to={ '/about' }>About</NavLink>
             <NavLink onClick={ clickHandler } to={ '/work' }>Work</NavLink>
-            <NavLink onClick={ clickHandler } to={ '/contact' }>Contact</NavLink>
             <NavLink onClick={ clickHandler } to={ '/UX' }>UX</NavLink>
             <NavLink onClick={ clickHandler } to={ '/homework' }>Homework</NavLink>
         </MainMenuStyled>
