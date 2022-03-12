@@ -17,7 +17,8 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    background-color: teal;
+    background-color: white;
+    border: solid 1px black;
     text-align: center;
     padding: 20px 0px;
 `;
