@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-import Welcome from '../Welcome/Welcome.jsx'
-import Services from '../Services/Services.jsx'
+import Home from '../Home/Home.jsx'
+import Work from '../Work/Work.jsx'
 import Contact from '../Contact/Contact.jsx'
 import UX from '../UX/UX.jsx'
 import Homework from '../Homework/Homework.jsx';
@@ -15,10 +15,10 @@ const Main = () => {
             <div className="inset">
                 <Switch>
                     <Route path='/' exact>
-                        <Welcome />
+                        <Home />
                     </Route>
-                    <Route path='/services'>
-                        <Services />
+                    <Route path='/work'>
+                        <Work />
                     </Route>
                     <Route path='/contact'>
                         <Contact />

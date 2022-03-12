@@ -8,23 +8,23 @@ import { servicesData } from './servicesData.js';
 import ServiceGallery from './ServiceGallery/ServiceGallery.jsx';
 import ServiceMenu from './ServiceMenu/ServiceMenu.jsx';
 
-const Services = () => {
+const Work = () => {
 
     const [chosenCategory, chosenCategoryUpdate] = useState('All');
 
     console.log('chosenCategory', chosenCategory);
 
     return (
-        <ServicesStyled className='Services'>
+        <WorkStyled className='Services'>
             <h1>Services</h1>
             <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
             <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory } />
-        </ServicesStyled>
+        </WorkStyled>
     );
 }
 
-export default Services;
+export default Work;
 
-const ServicesStyled = styled.div`
+const WorkStyled = styled.div`
     
 `;

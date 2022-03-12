@@ -5,20 +5,20 @@ import Slideshow from './Slideshow/Slideshow.jsx';
 import Tabbed from './Tabbed/Tabbed.jsx';
 import Staff from './Staff/Staff.jsx';
 
-const Welcome = () => {
+const Home = () => {
 
     return (
-        <WelcomeStyled className='Welcome'>
+        <HomeStyled className='Welcome'>
             <h1>Welcome</h1> 
             <Tabbed />
             <Staff />
             <Slideshow />
-        </WelcomeStyled>
+        </HomeStyled>
     );
 }
 
-export default Welcome;
+export default Home;
 
-const WelcomeStyled = styled.div`
+const HomeStyled = styled.div`
     
 `;
