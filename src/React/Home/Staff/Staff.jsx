@@ -26,8 +26,9 @@ const Staff = () => {
 export default Staff;
 
 const StaffStyled = styled.div`
-    background-color: teal;
+    background-color: white;
     padding: 20px;
+    border: solid 1px gray;
     margin: 20px 0px;
 
     .wrapper {
