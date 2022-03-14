@@ -33,5 +33,6 @@ const TabbedMenuItemStyled = styled.div`
     &.selected {
         background-color: white;
         color: black;
+        font-weight: bold;
     }
 `;

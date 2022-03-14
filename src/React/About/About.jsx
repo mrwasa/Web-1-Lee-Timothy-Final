@@ -7,7 +7,6 @@ const About = () => {
 
     return (
         <AboutStyled className='About'>
-            About 
             <Tabbed />
         </AboutStyled>
     );
