@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 /* Scripts ---------------------------*/
-import { servicesData } from './servicesData.js';
+import { workData } from './workData.js';
 
 /* Components ---------------------------*/
-import ServiceGallery from './ServiceGallery/ServiceGallery.jsx';
-import ServiceMenu from './ServiceMenu/ServiceMenu.jsx';
+import WorkGallery from './WorkGallery/WorkGallery.jsx';
+import WorkMenu from './WorkMenu/WorkMenu.jsx';
 
 const Work = () => {
 
@@ -15,10 +15,10 @@ const Work = () => {
     console.log('chosenCategory', chosenCategory);
 
     return (
-        <WorkStyled className='Services'>
-            <h1>Services</h1>
-            <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
-            <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory } />
+        <WorkStyled className='Work'>
+            <h1>Work</h1>
+            <WorkMenu categories={ workData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
+            <WorkGallery work={ workData.work } chosenCategory={ chosenCategory } />
         </WorkStyled>
     );
 }
