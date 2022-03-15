@@ -21,6 +21,7 @@ const SiteTitleStyled = styled.div`
     h2 {
         margin: 0px;
         font-size: 30px;
-        font-family: 'Quicksand', sans-serif;
+        font-weight: normal;
+        font-family: 'Calibri', sans-serif;
     }
 `;

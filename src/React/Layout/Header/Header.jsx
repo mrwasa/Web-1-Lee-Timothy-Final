@@ -29,7 +29,7 @@ export default Header;
 
 const HeaderStyled = styled.header`
     background-color: white;
-    padding: 20px 20px;
+    padding: 0px 10px;
     display: flex;
     justify-content: center;
     border-bottom: solid 1px black;

@@ -36,13 +36,13 @@ const MainMenuStyled = styled.div`
         text-align: center;
 
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: normal;
 
         &:hover{
             color: gray;
         }
         &.active {
-            color: gray;
+            color: black;
         }
 
     }
