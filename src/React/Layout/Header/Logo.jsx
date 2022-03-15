@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 import SiteLogo from 'React/common/SiteLogo.jsx';
 
@@ -7,7 +8,7 @@ const Logo = () => {
 
     return (
         <LogoStyled className='Logo'>
-            <SiteLogo />
+            <NavLink to={ '/'} exact><SiteLogo /></NavLink>
         </LogoStyled>
     );
 }

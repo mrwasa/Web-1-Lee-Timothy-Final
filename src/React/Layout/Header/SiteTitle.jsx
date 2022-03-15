@@ -16,11 +16,11 @@ export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
     color: #535252;
-    text-align: left;
+    text-align: center;
 
     h2 {
         margin: 0px;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: normal;
         font-family: 'Calibri', sans-serif;
     }

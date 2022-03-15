@@ -30,44 +30,46 @@ export default Header;
 const HeaderStyled = styled.header`
     background-color: white;
     padding: 0px 10px;
-    display: flex;
+    /* display: flex; */
+    flex-wrap: wrap;
     justify-content: center;
     border-bottom: solid 1px black;
 
     .row {
-        display: flex;
-        align-items: center;
+        /* display: flex; */
         justify-content: center;
+        align-items: center;
         width: 100%;
 
 
         .brand {
-            display: flex;
-            color: darkgray;
-            margin: 5px 15px 0px 5px;
+            /* display: flex; */
+            justify-content: flex-start;
+            color: black;
+            margin: 5px 0px 0px 5px;
             background-color: white;
             height: auto;
             line-height: 30px;
-            align-items: center;
-
-
-        }
-
-        .navigation {
-            display: flex;
-            justify-content: center;
         }
     }
 
     @media ${defaultMediaQueries.mdUp} {
         display: flex;
-        justify-content: center;
-            .row {
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .brand {
                 display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 100%;
             }
+
+            .navigation {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
     }
 
 `;

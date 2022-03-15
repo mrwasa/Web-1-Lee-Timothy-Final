@@ -29,7 +29,7 @@ const MainMenuStyled = styled.div`
         display: block;
         color: darkgray;
         margin: 5px 0px;
-        background-color: white;
+        background-color: #fff;
         height: 50px;
         line-height: 55px;
         text-decoration: none;

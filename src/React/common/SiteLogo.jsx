@@ -11,7 +11,7 @@ const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <img src="/assets/img/tllogo_small.png" width="50" height="50" />
+            <img src="/assets/img/tllogo_small.png" width="50" height="60" />
         </SiteLogoStyled>
     );
 }
