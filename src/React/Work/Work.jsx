@@ -16,7 +16,6 @@ const Work = () => {
 
     return (
         <WorkStyled className='Work'>
-            <h1>Work</h1>
             <WorkMenu categories={ workData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
             <WorkGallery work={ workData.work } chosenCategory={ chosenCategory } />
         </WorkStyled>
