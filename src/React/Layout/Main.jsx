@@ -12,25 +12,25 @@ const Main = () => {
 
     return (
         <MainStyled className='Main'>
-            <div className="inset">
                 <Switch>
                     <Route path='/' exact>
                         <Home />
                     </Route>
-                    <Route path='/about'>
-                        <About />
-                    </Route>
-                    <Route path='/work'>
-                        <Work />
-                    </Route>
-                    <Route path='/ux'>
-                        <UX />
-                    </Route>
-                    <Route path='/homework'>
-                        <Homework />
-                    </Route>
+                    <div className="inset">
+                        <Route path='/about'>
+                            <About />
+                        </Route>
+                        <Route path='/work'>
+                            <Work />
+                        </Route>
+                        <Route path='/ux'>
+                            <UX />
+                        </Route>
+                        <Route path='/homework'>
+                            <Homework />
+                        </Route>
+                    </div>
                 </Switch>
-            </div>
         </MainStyled>
     );
 }

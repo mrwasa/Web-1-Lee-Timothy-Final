@@ -1,16 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Slideshow from './Slideshow/Slideshow.jsx';
-import Staff from './Staff/Staff.jsx';
+import Slideshow from '../Extra/Slideshow/Slideshow.jsx';
+import Staff from '../Extra/Staff/Staff.jsx';
+import Intro from './Intro.jsx';
 
 const Home = () => {
 
     return (
         <HomeStyled className='Welcome'>
-            <h1>Welcome</h1> 
-            <Staff />
-            <Slideshow />
+            <Intro />
         </HomeStyled>
     );
 }
