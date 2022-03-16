@@ -30,6 +30,8 @@ export default Header;
 const HeaderStyled = styled.header`
     background-color: #696969;
     padding: 0px 10px;
+    position: sticky;
+    top: 0;
     /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
