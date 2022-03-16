@@ -1,24 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Roominate = () => {
+const Airbnb = () => {
 
     return (
-        <RoominateStyled className='Roominate'>
-            <img src="/assets/img/Work/UX/Roominate_large.jpg" />
+        <AirbnbStyled className='Airbnb'>
+            <img src="/assets/img/Work/UX/Airbnb_large.jpg" />
             <div className="title">
-                <h2>UX/App Design - </h2>
-                <h3>Roominate</h3>
+                <h2>UX Design - </h2>
+                <h3>Airbnb</h3>
             </div>
-            <p>Making room rearrangements and decorating and easy and convenient experience with AR technology and a plethora of different furniture at the ready. </p>
+            <p>Improving the experience of guests and hosts by evening out the balance between Airbnb's services for guests and hosts.</p>
             <hr></hr>
-        </RoominateStyled>
+        </AirbnbStyled>
     );
 }
 
-export default Roominate;
+export default Airbnb;
 
-const RoominateStyled = styled.div`
+const AirbnbStyled = styled.div`
     background-color: gray;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -65,5 +65,4 @@ const RoominateStyled = styled.div`
     hr {
         width: 50%;
     }
-
 `;

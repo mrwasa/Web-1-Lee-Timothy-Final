@@ -6,6 +6,7 @@ import Staff from '../Extra/Staff/Staff.jsx';
 import Intro from './Intro.jsx';
 import Roominate from './Roominate.jsx';
 import Fischbach from './Fischbach.jsx';
+import Airbnb from './Airbnb.jsx';
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <Intro />
             <Roominate />
             <Fischbach />
+            <Airbnb />
         </HomeStyled>
     );
 }

@@ -19,7 +19,7 @@ const Fishbach = () => {
 export default Fishbach;
 
 const FishbachStyled = styled.div`
-        background-color: #DCDCDC;
+    background-color: #DCDCDC;
     padding-top: 100px;
     padding-bottom: 100px;
 
