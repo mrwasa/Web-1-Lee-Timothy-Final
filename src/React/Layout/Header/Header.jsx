@@ -15,7 +15,6 @@ const Header = () => {
             <div className="row">
                 <div className="brand">
                     <Logo />
-                    <SiteTitle />
                 </div>
                 <div className="navigation">
                     <Nav />    
@@ -28,7 +27,7 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: #696969;
+    background-color: #DCDCDC;
     padding: 0px 10px;
     position: sticky;
     top: 0;

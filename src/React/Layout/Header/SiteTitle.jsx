@@ -15,14 +15,14 @@ const SiteTitle = () => {
 export default SiteTitle;
 
 const SiteTitleStyled = styled.div`
-    background-color: #696969;
-    color: white;
+    background-color: #DCDCDC;
+    color: black;
     text-align: center;
 
     h2 {
         margin: 0px;
         font-size: 20px;
         font-weight: normal;
-        font-family: 'Oswald', sans-serif;
+        font-family: "Source Sans Pro";
     }
 `;

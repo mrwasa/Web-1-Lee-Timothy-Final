@@ -30,7 +30,7 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: #696969;
+    background-color: #DCDCDC;
     padding: 20px;
     display: flex;
     justify-content: center;

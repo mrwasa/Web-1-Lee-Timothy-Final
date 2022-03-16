@@ -32,7 +32,7 @@ const WorkMenuItemStyled = styled.div`
     }
 
     &.active {
-        background-color: gray;
+        background-color: black;
         color: white;
     }
 `;

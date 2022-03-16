@@ -27,9 +27,9 @@ export default MainMenu;
 const MainMenuStyled = styled.div`
     a {
         display: block;
-        color: white;
+        color: black;
         margin: 5px 0px;
-        background-color: #696969;
+        background-color: #DCDCDC;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -42,7 +42,7 @@ const MainMenuStyled = styled.div`
             color: gray;
         }
         &.active {
-            color: black;
+            color: dodgerblue;
         }
 
     }

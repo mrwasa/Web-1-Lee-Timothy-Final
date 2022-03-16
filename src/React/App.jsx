@@ -28,5 +28,5 @@ const App = () => {
 export default App;
 
 const AppStyled = styled.div`
-    background-color: #696969;
+    background-color: #DCDCDC;
 `;
