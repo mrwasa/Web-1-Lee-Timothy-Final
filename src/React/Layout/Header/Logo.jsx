@@ -16,6 +16,7 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
+    background-color: #696969;
     width: 100%;
     height: 100%;
 `;

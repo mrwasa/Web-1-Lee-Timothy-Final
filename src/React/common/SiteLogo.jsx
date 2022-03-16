@@ -11,7 +11,7 @@ const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <img src="/assets/img/tllogo_small.png" width="50" height="60" />
+            <img src="/assets/img/tllogo_small.png" width='50px' height='60px' />
         </SiteLogoStyled>
     );
 }
@@ -23,8 +23,4 @@ const SiteLogoStyled = styled.div`
     width: 100%;
     height: 100%;
 
-    .img {
-        width: 50px;
-        height: auto;
-    }
 `;

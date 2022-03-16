@@ -28,12 +28,11 @@ const Header = () => {
 export default Header;
 
 const HeaderStyled = styled.header`
-    background-color: white;
+    background-color: #696969;
     padding: 0px 10px;
     /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
-    border-bottom: solid 1px black;
 
     .row {
         /* display: flex; */
@@ -56,6 +55,7 @@ const HeaderStyled = styled.header`
     @media ${defaultMediaQueries.mdUp} {
         display: flex;
         .row {
+            padding: 20px 0px 0px 50px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -66,6 +66,7 @@ const HeaderStyled = styled.header`
             }
 
             .navigation {
+                padding: 0px 50px 0px 0px;
                 display: flex;
                 justify-content: flex-end;
             }

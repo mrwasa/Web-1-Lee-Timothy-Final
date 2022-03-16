@@ -17,7 +17,7 @@ const SiteTitleStyled = styled.div`
     h2 {
         margin: 5px 0px;
         font-size: 14px;
-        color: gray;
+        color: darkgray;
     }
     .copyright {
         font-size: 14px;
