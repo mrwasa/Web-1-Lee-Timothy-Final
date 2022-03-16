@@ -22,7 +22,7 @@ const WorkGalleryItem = ({work}) => {
             <img src={ work.image } alt={ work.title } />
             <ul>
                 <li><b>Category:</b> { work.category }</li>
-                <b>Coming Soon</b>
+                <b className='Coming'>Coming Soon</b>
             </ul>
             <p>{ work.description }</p>
             </>
@@ -93,6 +93,10 @@ const WorkGalleryItemStyled = styled.div`
         ul {
             padding: 15px;
             margin: 0px 0px 10px;
+        }
+        .Coming {
+            font-size: 30px;
+            text-align: center;
         }
         p{
             margin: 0px 0px 10px;

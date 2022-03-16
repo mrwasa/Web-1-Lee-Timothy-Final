@@ -27,9 +27,9 @@ export default MainMenu;
 const MainMenuStyled = styled.div`
     a {
         display: block;
-        color: darkgray;
+        color: white;
         margin: 5px 0px;
-        background-color: #fff;
+        background-color: #696969;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
