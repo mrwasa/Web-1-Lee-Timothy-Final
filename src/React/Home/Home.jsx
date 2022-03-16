@@ -7,6 +7,7 @@ import Intro from './Intro.jsx';
 import Roominate from './Roominate.jsx';
 import Fischbach from './Fischbach.jsx';
 import Airbnb from './Airbnb.jsx';
+import HitMeUp from './HitMeUp.jsx';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Roominate />
             <Fischbach />
             <Airbnb />
+            <HitMeUp />
         </HomeStyled>
     );
 }

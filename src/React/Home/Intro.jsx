@@ -5,8 +5,8 @@ const Intro = () => {
 
     return (
         <IntroStyled className='Intro'>
-            <h1>Hello, I'm Tim</h1> 
-            <h2>I am a passionate Designer dedicated to products, services, and interactive experiences.  </h2>
+            <h1>Hello, I'm Tim!</h1> 
+            <h2>I am a passionate Designer dedicated in the improvement of product, service, and interactive experiences.</h2>
             <div className="inset">
                 <p>
                 
