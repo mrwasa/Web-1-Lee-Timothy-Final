@@ -9,15 +9,7 @@ const Intro = () => {
             <h2>I am a passionate Designer dedicated to products, services, and interactive experiences.  </h2>
             <div className="inset">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat perferendis illo reprehenderit libero dolor ullam. Molestiae assumenda, ducimus nesciunt inventore nam voluptas, minus beatae expedita quas nobis sit tempora.
+                
                 </p>
             </div>
         </IntroStyled>
@@ -27,15 +19,14 @@ const Intro = () => {
 export default Intro;
 
 const IntroStyled = styled.div`
-    background-color: #696969;
+    background-color: #DCDCDC;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-
+    padding-top: 250px;
 
     h1 {
-        font-size: 20px;
-        color: black;
+        font-family: "Source Sans Pro";
+        font-size: 40px;
+        color: dodgerblue;
     }
 
     h2 {
@@ -46,7 +37,7 @@ const IntroStyled = styled.div`
         font-family: Source Sans Pro, Arial, sans-serif;
         text-align: center;
         font-size: 50px;
-        color: white;
+        color: black;
     }
 
     .inset {

@@ -1,25 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Roominate = () => {
+const Fishbach = () => {
 
     return (
-        <RoominateStyled className='Roominate'>
-            <img src="/assets/img/Work/UX/Roominate_large.jpg" />
+        <FishbachStyled className='Fishbach'>
+            <img src="/assets/img/Work/ServiceDesign/fischbach_large.jpg" />
             <div className="title">
-                <h2>App Design - </h2>
-                <h3>Roominate</h3>
+                <h2>Service Design - </h2>
+                <h3>Fischbach Experience Center</h3>
             </div>
-            <p>Making room rearrangements and decorating and easy and convenient experience with AR technology and a plethora of different furniture at the ready. </p>
+            <p>A new look at car dealerships: improving the car buying and financing experience in order to bring customers back to the showroom.</p>
             <hr></hr>
-        </RoominateStyled>
+        </FishbachStyled>
     );
 }
 
-export default Roominate;
+export default Fishbach;
 
-const RoominateStyled = styled.div`
-    background-color: gray;
+const FishbachStyled = styled.div`
+        background-color: #DCDCDC;
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -40,7 +40,7 @@ const RoominateStyled = styled.div`
             padding: 10px 0px 0px 0px;
             margin-left: 250px;
             margin-right: 0px;
-            color: white;
+            color: dodgerblue;
             text-align: left;
             font-size: 24px;
         }
@@ -59,11 +59,10 @@ const RoominateStyled = styled.div`
         margin-left: 505px;
         margin-right: 500px;
         font-size: 18px;
-        color: white;
+        color: dodgerblue;
     }
 
     hr {
         width: 50%;
     }
-
 `;
