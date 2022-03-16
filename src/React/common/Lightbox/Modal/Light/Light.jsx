@@ -27,7 +27,7 @@ const LightStyled = styled.div`
 
     background-color: white;
 
-    width: 300px;
+    width: 700px;
     height: auto;
 
 `;
