@@ -21,12 +21,14 @@ export default HitMeUp;
 
 const HitMeUpStyled = styled.div`
     background-color: #DCDCDC;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 350px;
+    padding-bottom: 350px;
     line-height: 10px;
 
     h1 {
         text-align: center;
+        font-family: "Raleway";
+        font-size: 60px;
     }
 
     .links {
@@ -35,8 +37,8 @@ const HitMeUpStyled = styled.div`
     }
 
     .links > div {
-        margin: 10px;
-        padding: 20px;
+        margin: 20px;
+        padding: 10px;
     }
 
     a {

@@ -24,7 +24,7 @@ const IntroStyled = styled.div`
     padding-top: 250px;
 
     h1 {
-        font-family: "Source Sans Pro";
+        font-family: "Helvetica" ;
         font-size: 40px;
         color: dodgerblue;
     }
@@ -34,7 +34,7 @@ const IntroStyled = styled.div`
         width: 100%;
         max-width: 1200px;
         margin: auto;
-        font-family: Source Sans Pro, Arial, sans-serif;
+        font-family: "Raleway";
         text-align: center;
         font-size: 50px;
         color: black;

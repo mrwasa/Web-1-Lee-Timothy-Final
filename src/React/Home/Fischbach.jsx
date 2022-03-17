@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+/* Scripts ---------------------------*/
+import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
+
 const Fishbach = () => {
 
     return (
@@ -33,36 +36,60 @@ const FishbachStyled = styled.div`
 
     .title {
         display: flex;
+        justify-content: center;
         align-items: baseline;
+        flex-wrap: wrap;
 
         h2 {
-            flex: 1;
-            padding: 10px 0px 0px 0px;
-            margin-left: 250px;
-            margin-right: 0px;
+            margin: 20px 200px 0px 200px;
+            font-family: "Raleway";
             color: dodgerblue;
             text-align: left;
             font-size: 24px;
         }
 
         h3 {
-            flex: 4;
-            padding: 10px 10px 0px 0px;
-            margin-right: 250px;
-            text-align: left;
+            margin: 20px 200px 0px 200px;
+            text-align: center;
             font-size: 50px;
         }
     }
 
     p {
-        padding: 0px 0px 30px 0px;
-        margin-left: 505px;
-        margin-right: 500px;
+        display: flex;
+        justify-content: center;
+        margin: 20px 350px 40px 300px;
         font-size: 18px;
+        text-align: center;
         color: dodgerblue;
     }
 
     hr {
         width: 50%;
+    }
+
+    @media ${defaultMediaQueries.mdUp} {
+        .title {
+        display: flex;
+        justify-content: left;
+        align-items: baseline;
+        flex-wrap: wrap;
+
+            h2 {
+                margin: 20px 140px 0px 250px;
+            }
+
+            h3 {
+                margin: 20px 100px 0px 0px;
+                text-align: left;
+            }
+        }
+
+        p {
+            display: flex;
+            margin: 20px 350px 40px 570px;
+            font-size: 18px;
+            text-align: left;
+        }
     }
 `;
