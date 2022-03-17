@@ -34,6 +34,16 @@ const ContentStyled = styled.div`
     .right {
         flex: 3;
         margin-left: 20px;
+
+        h3 {
+            font-family:"Raleway";
+            color: dodgerblue;
+        }
+
+        div {
+            line-height: 150%;
+            font-size: 24px;
+        }
     }
 
 `;

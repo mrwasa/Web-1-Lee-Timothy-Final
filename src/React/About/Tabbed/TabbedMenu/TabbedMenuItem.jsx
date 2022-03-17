@@ -20,7 +20,7 @@ export default TabbedMenuItem;
 
 const TabbedMenuItemStyled = styled.div`
     background-color: white;
-    color: darkgray;
+    color: gray;
     width: 150px;
     text-align: center;
     cursor: pointer;
@@ -32,7 +32,7 @@ const TabbedMenuItemStyled = styled.div`
 
     &.selected {
         background-color: white;
-        color: black;
+        color: dodgerblue;
         font-weight: bold;
     }
 `;
