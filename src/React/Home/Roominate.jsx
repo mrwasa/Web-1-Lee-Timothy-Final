@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 /* Scripts ---------------------------*/
 import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
@@ -8,7 +9,9 @@ const Roominate = () => {
 
     return (
         <RoominateStyled className='Roominate'>
-            <img src="/assets/img/Work/UX/Roominate_large.jpg" />
+            <NavLink to={'/comingsoon' }>
+                <img src="/assets/img/Work/UX/Roominate_large.jpg" />
+            </NavLink>
             <div className="title">
                 <div><h2>UX/App Design - </h2></div>
                 <div><h3>Roominate</h3></div>

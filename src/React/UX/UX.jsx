@@ -18,5 +18,7 @@ const UX = () => {
 export default UX;
 
 const UXStyled = styled.div`
-    
+    h1 {
+        font-family:"Raleway";
+    }
 `;

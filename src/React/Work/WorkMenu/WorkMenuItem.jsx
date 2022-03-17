@@ -33,6 +33,6 @@ const WorkMenuItemStyled = styled.div`
 
     &.active {
         background-color: black;
-        color: white;
+        color: dodgerblue;
     }
 `;

@@ -8,7 +8,7 @@ const Logo = () => {
 
     return (
         <LogoStyled className='Logo'>
-            <NavLink to={ '/'} exact><SiteLogo /></NavLink>
+            <NavLink to={ '/' } exact><SiteLogo /></NavLink>
         </LogoStyled>
     );
 }

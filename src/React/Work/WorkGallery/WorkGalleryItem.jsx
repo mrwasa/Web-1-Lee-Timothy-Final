@@ -63,12 +63,13 @@ const WorkGalleryItemStyled = styled.div`
         }
 
         h3 {
-            background-color: gray;
-            color: white;
+            background-color: black;
+            color: dodgerblue;
             margin: 0px;
             padding: 10px;
 
             font-size: 14px;
+            font-family: Helvetica, Arial, sans-serif;
 
             position: absolute;
             left: 5px;
@@ -95,6 +96,7 @@ const WorkGalleryItemStyled = styled.div`
             margin: 0px 0px 10px;
         }
         .Coming {
+            padding: 10px 0px 0px 240px;
             font-size: 30px;
             text-align: center;
         }

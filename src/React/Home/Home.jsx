@@ -25,6 +25,5 @@ const Home = () => {
 export default Home;
 
 const HomeStyled = styled.div`
-    scroll-snap-type: y proximity;
-    scroll-snap-stop: normal;
+    
 `;
