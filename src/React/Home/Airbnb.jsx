@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 /* Scripts ---------------------------*/
 import { defaultMediaQueries } from 'React/common/useMediaQuery.js';
@@ -8,7 +9,9 @@ const Airbnb = () => {
 
     return (
         <AirbnbStyled className='Airbnb'>
-            <img src="/assets/img/Work/UX/Airbnb_large.jpg" />
+            <NavLink to={'/comingsoon' }>
+                <img src="/assets/img/Work/UX/Airbnb_large.jpg" />
+            </NavLink>
             <div className="title">
                 <h2>UX Design - </h2>
                 <h3>Airbnb</h3>

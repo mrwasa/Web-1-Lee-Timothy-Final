@@ -6,7 +6,6 @@ const ComingSoon = () => {
     return (
         <ComingSoonStyled className='ComingSoon'>
             ComingSoon
-            <h1>Hi</h1>
         </ComingSoonStyled>
     );
 }
