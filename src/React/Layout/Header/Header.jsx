@@ -30,6 +30,7 @@ const HeaderStyled = styled.header`
     background-color: #DCDCDC;
     padding: 0px 10px;
     position: sticky;
+    z-index: 9000;
     top: 0;
     /* display: flex; */
     flex-wrap: wrap;
